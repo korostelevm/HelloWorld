@@ -1,5 +1,5 @@
 module.exports.all = (req,res) => {
-    var a = process.env
+    var a = 'yo'
     res.json({
        ... a,
        'asdfasdf':'asdfasdfasfs',
