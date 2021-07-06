@@ -3,7 +3,8 @@ module.exports.all = (req,res) => {
     res.json({
        ... a,
        'asdfasdf':'asdfasdfasdfsdfasdfasfs',
-       'asdfasdfasdfasdf':'---999asdfasdfasdf999999-------'
+       'asdfasdfasdfasdf':'---aaaaaa-------',
+       ...process.env
     } 
   )}
 
