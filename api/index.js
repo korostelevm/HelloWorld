@@ -1,8 +1,8 @@
 module.exports.all = (req,res) => {
-    var a = 'yo'
+    var a = 'yodddd'
     res.json({
        ... a,
-       'asdfasdf':'asdfasdfasfs',
+       'asdfasdf':'asdfasdfasdfsdfasdfasfs',
        'asdfasdfasdfasdf':'-------------------------------------------'
     } 
   )}
