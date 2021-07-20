@@ -19,11 +19,12 @@ const publish = async function (msg) {
    await sns.publish(params).promise();
  };
  
+ 
   
  
 module.exports.all = async (req,res) => {
     var a = 'sadf'
-    var r = await publish({ts:Date.now(), line:JSON.stringify(req.headers,null,2)});
+    var r = await publish(req.headers);
 
     res.json({
        r,
