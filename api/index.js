@@ -21,14 +21,13 @@
   
 
 module.exports.all = (req,res) => {
-    var a = 'yasdfodddd'
+    var a = 'yasdfoddddd'
    //  await publish({ts:Date.now(), line:'sadfasfd'});
 
     res.json({
        ... a,
        'asdfasdf':'asdfasdfasdfsdfasdfasfs',
-       'asdfasdfasdfasdf':'---aaaaaa-------',
-       ...process.env
+       'asdfasdfasdfasdf':'---aaaaaa-------'
     } 
   )}
 
