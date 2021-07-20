@@ -18,7 +18,7 @@
 //    await sns.publish(params).promise();
 //  };
  
- 
+  
 
 module.exports.all = (req,res) => {
     var a = 'yodddd'
