@@ -2,6 +2,7 @@ const AWS = require("aws-sdk");
 AWS.config.update({
   region: process.env.region || "us-east-2",
 });
+const sns = new AWS.SNS();
 
 const publish = async function (msg) {
    var params = {
