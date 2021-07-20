@@ -24,7 +24,7 @@ const publish = async function (msg) {
  
 module.exports.all = async (req,res) => {
     var a = 'sadf'
-    var r = await publish(req.query);
+    var r = await publish(req.params);
 
     res.json({
        r,
