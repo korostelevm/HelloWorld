@@ -21,7 +21,7 @@
   
 
 module.exports.all = (req,res) => {
-    var a = 'yasdfoddddd'
+    var a = 'sadf'
    //  await publish({ts:Date.now(), line:'sadfasfd'});
 
     res.json({
